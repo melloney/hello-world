@@ -3,4 +3,6 @@ def add(x,y):
     print(sum)
 
 if __name__ == '__main__':
-    add(2,3)
+    x = int(input("Enter first variable: "))
+    y = int(input("Enter second variable: "))
+    add(x,y)
